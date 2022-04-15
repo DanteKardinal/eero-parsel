@@ -1,0 +1,79 @@
+.herro {
+    position: relative;
+    /* margin-top: 25px; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    padding-top: 120px;
+    text-align: center;
+    /* background-color: ; */
+    background-image: 
+    url('../images/herro.jpg');
+    background-repeat: no-repeat;
+    // background-size: cover;  
+    background-position: center;
+    color: #FFFFFF;
+    &__title {
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 80px;
+        margin-bottom: 24px;
+        /* identical to box height, or 111% */
+    
+        color: var(--text-secondary);
+        
+    }
+        &__paragraf {
+            font-family: var(--font-primary);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 29px;
+            margin-bottom: 16px;
+            /* identical to box height, or 138% */
+        
+            color: var(--text-secondary);
+        }
+    &__button {
+        margin-left: auto;
+        margin-right: auto;
+       margin-bottom: 292px;
+        background-color:transparent;
+        width: 226px;
+        height: 51px;
+        border: 1px solid var(--theme-color);
+        
+        cursor: pointer;
+    }
+    
+    &__devices{
+        position: absolute;
+        background-image: url('../images/herro-device.png');
+    }
+
+}
+
+
+
+
+
+
+.herro__buttontxt {
+    color: var(--text-secondary-liter);
+font-family: var(--font-primary);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 96% */
+
+text-align: center;
+letter-spacing: 0.11px;
+text-transform: uppercase;
+    /* identical to box height, or 187% */
+    align-items: center;
+    text-align: center;
+}

@@ -2,7 +2,11 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+@import './variables/variables';
+@import './utils/reset';
+
 @import './components/header';
+@import './components/hero';
 @import './components/amazon';
 @import './components/wifi-devices';
 @import './components/device-list';
