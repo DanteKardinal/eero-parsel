@@ -2,7 +2,20 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+@import './components/header';
+@import './components/amazon';
+@import './components/wifi-devices';
+@import './components/device-list';
+@import './components/quotes';
+@import './components/potential';
+@import './components/opportunities';
+@import './components/truemesh';
+@import './components/technology-wifi';
+@import './components/change-system';
+@import './components/people-love-greate-wifi';
+@import './components/help-center';
+@import './components/stay-connected';
+@import './components/footer';
 
 // Стили для файла с примером HTML-фрагмента
 @import './example';
-@import './header';
