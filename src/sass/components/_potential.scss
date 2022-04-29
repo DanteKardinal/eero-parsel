@@ -1,0 +1,53 @@
+.potential {
+  display: block;
+  width: auto;
+  height: auto;
+
+  background-image: url(../images/potential_bg.png);
+  background-size: cover;
+
+  border-radius: 0px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.potential__wrap {
+  width: 1200px;
+  height: 800px;
+
+  text-align: center;
+
+  padding-top: 165px;
+  padding-left: 318px;
+  padding-right: 318px;
+  padding-bottom: 148px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.potential__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 56px;
+}
+
+.potential__title {
+  margin-bottom: 44px;
+}
+
+.potential__text {
+  margin-bottom: 118px;
+}
+.potential__button {
+  width: 200px;
+  height: 90px;
+  background-color: red;
+
+  cursor: pointer;
+}

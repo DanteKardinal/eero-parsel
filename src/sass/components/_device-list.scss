@@ -1,0 +1,127 @@
+.section-device-list{
+    padding-top: 579px;
+    padding-bottom: 85px;
+    background-image: url("../images/devise-list-background.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    &__container{
+        width: 1440px;
+        padding-left: 188px;
+        margin: 0 auto;
+    }
+    &__link{
+        padding: 0px;
+        margin-top: 89px;
+        background-color: transparent;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        &::after{
+            margin-top: 5px;
+            content: "";
+            display: block;
+            width: 154px;
+            height: 1px;
+            background-color: white;
+        }
+    }
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.devise-list{
+    text-align: left;
+    list-style: none;
+    display: flex;
+    gap: 216px;
+
+    margin: 0;
+    padding: 0;
+
+    &__item-1{
+        width: 424px;
+    }
+    &__item-2{
+        width: 542px;
+    }
+    &__span{
+        padding: 1px 14px;
+        margin-bottom: 13px;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.31;
+        /* identical to box height, or 131% */
+
+        text-transform: uppercase;
+
+
+        background: #FFFFFF;
+        border-radius: 18px;
+    }
+    &__text1{
+        margin-bottom: 13px;
+
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 1.22;
+
+        color: #FFFFFF;
+    }
+
+    &__text2{
+        margin-bottom: 20px;
+        &--l{
+            width: 222px;
+        }
+
+        font-size: 36px;
+        line-height: 44px;
+
+        color: #FFFFFF;
+    }
+
+   
+    &__text3{
+        margin-bottom: 33px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.38;
+
+
+        color: #FFFFFF;
+    }
+
+    &__text4{
+        margin-bottom: 38px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.38x;
+        /* identical to box height, or 140% */
+        color: #FFFFFF;
+    }
+    &__button{
+        background: #2468FF;
+        border-radius: 0px;
+        border: none;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 17px;
+        padding-bottom: 21px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 0.11px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+}
