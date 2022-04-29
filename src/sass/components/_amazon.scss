@@ -3,30 +3,37 @@
 }
 
 .section_description{
-    margin-top: 66px;
-    margin-bottom: 21px;
-
-    // font-family: 'Roboto';
-    // font-style: normal;
-    // font-weight: 400;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.15;
     text-align: center;
     color: #404040;
+    
 }
 .section__text{
-    margin-top: 61px;
-    // font-family: 'Roboto';
-    // font-style: normal;
-    // font-weight: 400;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.15;
     text-align: center;
     text-transform: uppercase;
+   
 
     color: #404040;
 
 }
+.section__link{
+    background-color: 
+    rgba(255, 255, 255, 1);
+}
+
+.section_btn{
+    outline: none;
+}
+
 .section__logo{
     display: block;
     width: 108px;
