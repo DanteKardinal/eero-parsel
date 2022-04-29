@@ -1,8 +1,10 @@
 .section{
+
     
 }
 
 .section_description{
+    margin-bottom: 21px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -10,6 +12,7 @@
     line-height: 1.15;
     text-align: center;
     color: #404040;
+
     
 }
 .section__text{
@@ -20,7 +23,6 @@
     line-height: 1.15;
     text-align: center;
     text-transform: uppercase;
-   
 
     color: #404040;
 
@@ -31,11 +33,13 @@
 }
 
 .section_btn{
-    outline: none;
+    border: none;
 }
 
 .section__logo{
     display: block;
     width: 108px;
     height: 33px;
+
+    margin-bottom: 27px;
 }
