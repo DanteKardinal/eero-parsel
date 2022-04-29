@@ -51,3 +51,19 @@
 
   cursor: pointer;
 }
+
+.potential__slider-point {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.potential__spot {
+  width: 8px;
+  height: 8px;
+}
+
+.potential__icon {
+  width: 18px;
+  height: 18px;
+}
